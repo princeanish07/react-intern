@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(55, 55, 51);
+  height: 100vh;
+  font-family: "outfit";
+  color: rgb(209, 196, 196);
+
+
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.navbar img {
+  width: 100px;
+  height: 60px;
+  /* background: transparent; */
+  mix-blend-mode: multiply;
+
+  /* background-color: white; */
+  /* background-image: none; */
+  /* -webkit-border-image: none; */
+}
+.navbar {
+  position: fixed;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: rgb(55, 55, 51);
+
+  padding: 10px 20px; /* Example padding */
+  z-index: 1000; /* Set z-index to ensure it's above other content */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 5px 10px; */
+  height: 60px;
+  padding: 5px;
+ 
+  /* background: linear-gradient(270deg, #372c1c 10%, #b415ff 100%);  */
+
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  font-size: 20px;
+}
+.nav-connect {
+  display: flex;
+  justify-content: center;
+  padding: 15px 21px;
+  border-radius: 50px;
+  background: linear-gradient(200deg, #da7c25 0.36%, #b923e1 102.06%);
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+nav ul li:hover{
+ 
+  
+  color:linear-gradient(200deg, #da7c25 0.36%, #b923e1 102.06%);
+}

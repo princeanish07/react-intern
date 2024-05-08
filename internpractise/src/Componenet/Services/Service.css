@@ -1,0 +1,97 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  .service-title {
+    position: relative;
+  }
+  .service-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+ 
+  .services-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .neon-img1 {
+    height: 60px;
+    width: 300px;
+  }
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 40px;
+    margin-bottom: 80px;
+
+  }
+  .services-format h3{
+    font-size: 28px;
+    font-weight: 600;
+  
+
+  }
+  .services-format h2{
+font-size: 25px;
+font-weight: 600;
+background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent
+  }
+  .services-format p{
+    font-size: 15px;
+    font-weight: 400;
+    
+  }
+
+  .services-readmore{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .services-readmore p{
+    font-weight: 500;
+  }
+  .services-format:hover{
+transform: scale(1.1);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Initial box shadow */
+animation: revolvingColor 5s linear infinite; /* Animation */
+}
+
+@keyframes revolvingColor {
+0% {
+
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* Start box shadow */
+background: linear-gradient(270deg, #3a3630 50%, #3c3042 100%);
+
+}
+25% {
+ 
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+50% {
+  
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+}
+75% {
+
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+100% {
+ 
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+  }

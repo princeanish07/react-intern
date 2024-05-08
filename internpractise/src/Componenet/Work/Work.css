@@ -1,0 +1,89 @@
+.neon-img3 {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    z-index:-1;
+    align-items: center;
+  }
+  .mywork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  .mywork-title {
+    position: relative;
+  }
+  .mywork-title h1 {
+    font-size: 80px;
+    padding: 0px 30px;
+    font-weight: 600;
+  }
+  .mywork-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  .mywork-container img {
+    box-sizing: border-box;
+    width: 350px;
+    height:280px;
+    /* background-image:cover; */
+
+    object-fit: cover;
+  }
+  .mywork-container img:hover {
+    transform: scale(1.1);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Initial box shadow */
+border-radius: 40px;
+transition-duration: .5s;
+animation: revolvingColor 1.5s linear infinite; /* Animation */
+}
+
+@keyframes revolvingColor {
+0% {
+
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* Start box shadow */
+background: linear-gradient(270deg, #3a3630 50%, #3c3042 100%);
+
+}
+25% {
+ 
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+50% {
+  
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+}
+75% {
+
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+100% {
+ 
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+}
+  .mywork-showmore p {
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .mywork-showmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 60px;
+    width: 250px;
+    display: flex;
+    gap: 10px;
+  }
+  .mywork-showmore:hover {
+    transition: 0.4s;
+    transform: scale(1.04);
+    border: 2px solid rgb(227, 10, 195);
+    gap: 12px;
+  }

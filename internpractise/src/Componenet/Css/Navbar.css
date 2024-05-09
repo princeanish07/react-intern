@@ -10,6 +10,7 @@ body {
 
 
 }
+
 body::-webkit-scrollbar{
   display: none;
 }
@@ -67,4 +68,47 @@ nav ul li:hover{
  
   
   color:linear-gradient(200deg, #da7c25 0.36%, #b923e1 102.06%);
+}
+.nav-mob-close{
+  display: hidden;
+}
+.nav-mob-open{
+  display: hidden;
+}
+
+@media(max-width:768px){
+  
+  .nav-connect{
+    display: none;
+  }
+  .nav-menu{
+    display: none;
+  
+}
+.nav-mob-open{
+  display: block;
+  position: fixed;
+  right: 30px;
+}
+.nav-mob-close{
+  display: block;
+  position: fixed;
+  left: 290px;
+  top: 30px;
+  width: 30px;
+}
+.nav-menu{
+  position: fixed;
+  flex-direction: column;
+  align-items: start;
+  top: 0;
+  gap: 30px;
+  background-color: #1F0016;
+  width:350px;
+  height: 100%;
+  z-index: 2;
+  transition:right 0.5s;
+  right: -350px;
+}
+
 }

@@ -9,8 +9,7 @@ const Footer = () => {
         <div className="footer-top-left">
           <img className="footer-logo" src={mylogo} alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, sint
-            dolorem. Iste, perferendis quas nam{" "}
+          🌟 Frontend Developer 🚀 Passionate about crafting immersive web experiences. 💻 Fluent in HTML, CSS, JavaScript, and React.js. 🎨 Design enthusiast with an eye for detail. 📱 Let's connect and create something amazing together!{" "}
           </p>
         </div>
         <div className="footer-top-right">

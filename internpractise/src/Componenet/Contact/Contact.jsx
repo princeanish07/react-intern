@@ -39,8 +39,8 @@ const Contact = () => {
         <div className="contact-left">
           <h1>Lets Talk</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quo
-            nihil vitae accusamus beatae! Nesciunt saepe provident
+            
+Frontend Developer with a passion for creating engaging web experiences; let's build something remarkable together!
           </p>
           <div className="contact-details">
             <div className="contact-detail">

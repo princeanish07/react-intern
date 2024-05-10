@@ -10,7 +10,7 @@ const Hero = () => {
     <h1><span>hello its me Prince,</span>Frontend Developer</h1>
     <img src={profile_img} alt="" />
       </div>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, veniam odio laborum facere quisquam, assumenda accusantium, harum hic similique.</p>
+    <p>🤝 Collaboration is my middle name! Whether it's brainstorming with designers to bring concepts to life or syncing up with backend wizards to ensure seamless integrations, I thrive in team environments where diverse perspectives fuel creativity.</p>
      <div className="hero-action">
      <div className="hero-connect">Connect with me</div>
      <div className="hero-resume">My Resume</div>

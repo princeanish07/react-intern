@@ -32,7 +32,7 @@ function Navbar() {
       <li style={{ cursor:'pointer'}} > <Link to='home' smooth={true} duration={1000} >  Home </Link> </li>
       <li style={{cursor:'pointer'}} > <Link to='aboutus' smooth={true} duration={1000} >  About Us </Link> </li>
         
-        <li style={{ cursor:'pointer'}} > <Link to='Servicess' sm>  Services </Link> </li>
+        <li style={{ cursor:'pointer'}} > <Link to='Servicess' smooth={true} duration={1000} >  Services </Link> </li>
         <li style={{ cursor:'pointer'}} > <Link to='work' smooth={true} duration={1000} > My Work </Link> </li>
 
         <li style={{ cursor:'pointer'}} > <Link to='contactus' smooth={true} duration={1000} >  Contact </Link> </li>

@@ -70,15 +70,15 @@ nav ul li:hover{
   color:linear-gradient(200deg, #da7c25 0.36%, #b923e1 102.06%);
 }
 .nav-mob-close{
-  display: hidden;
+  display:none;
 }
 .nav-mob-open{
-  display: hidden;
+  display:none ;
 }
 
 @media(max-width:768px){
   
-  .nav-connect{
+  /* .nav-connect{
     display: none;
   }
   .nav-menu{
@@ -115,5 +115,44 @@ nav ul li:hover{
   padding-left: 100px;
   flex-direction: row;
   gap: 20px;
+} */
+@media (max-width: 768px) {
+  .navbar {
+    margin: 20px 50px;
+  }
+  .nav-connect {
+    display: none;
+  }
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 30px;
+  }
+  .nav-mob-close {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    width: 30px;
+  }
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    background-color: #000000;
+    width: 350px;
+    height: 420px;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -350px;
+  }
+  .nav-menu li {
+    font-size: 30px;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 20px;
+  }
 }
 }
